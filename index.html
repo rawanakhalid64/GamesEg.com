@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-background"></div>
+
+    <!-- Particle Effects -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">GAME<span>ZONE</span></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to the Ultimate Gaming Experience</h1>
+            <p>Explore the latest games, join tournaments, and connect with gamers worldwide.</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-users"></i>
+            <h3>Multiplayer</h3>
+            <p>Play with friends or compete against players globally.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-trophy"></i>
+            <h3>Tournaments</h3>
+            <p>Join exciting tournaments and win amazing prizes.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-comments"></i>
+            <h3>Community</h3>
+            <p>Connect with gamers and share your experiences.</p>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="games">
+        <h2>Popular Games</h2>
+        <div class="game-grid">
+            <div class="game-card" onclick="window.open('./hangman.html', '_blank')">
+                <i class="fas fa-ghost"></i>
+                <h3>Hangman</h3>
+                <p>Guess the word before the hangman is complete!</p>
+            </div>
+            <div class="game-card" onclick="window.open('./connect-four.html', '_blank')">
+                <i class="fas fa-gamepad"></i>
+                <h3>Connect Four</h3>
+                <p>Be the first to connect four of your pieces in a row!</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 GAMEZONE. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
