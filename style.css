@@ -89,7 +89,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: 700;
-    color: #ff4757;
+    color: #8c52ff;
     text-shadow: 0 0 5px rgba(255, 71, 87, 0.5);
 }
 
@@ -112,7 +112,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #ff4757;
+    color: #8c52ff;
 }
 
 .hamburger {
@@ -149,7 +149,7 @@ nav {
 
 .cta-btn {
     padding: 15px 40px;
-    background: #ff4757;
+    background: #8c52ff;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
@@ -158,7 +158,7 @@ nav {
 }
 
 .cta-btn:hover {
-    background: #ff6b81;
+    background: #756bfc;
     transform: translateY(-3px);
 }
 
@@ -182,19 +182,19 @@ nav {
 
 .feature-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(255, 71, 87, 0.3);
+    box-shadow: 0 0 20px rgba(129, 78, 240, 0.3);
 }
 
 .feature-card i {
     font-size: 60px;
     margin-bottom: 20px;
-    color: #ff4757;
+    color: #8c52ff;
 }
 
 .feature-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #ff4757;
+    color: #8c52ff;
 }
 
 .feature-card p {
@@ -233,19 +233,19 @@ nav {
 
 .game-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(255, 71, 87, 0.3);
+    box-shadow: 0 0 20px rgba(129, 78, 240, 0.3);
 }
 
 .game-card i {
     font-size: 80px;
     margin-bottom: 15px;
-    color: #ff4757;
+    color: #8c52ff;
 }
 
 .game-card h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #ff4757;
+    color: #8c52ff;
 }
 
 .game-card p {
@@ -281,7 +281,7 @@ footer p {
 }
 
 .social-links a:hover {
-    color: #ff4757;
+    color: #8c52ff;
 }
 
 /* Animations */
